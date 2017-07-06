@@ -1,0 +1,19 @@
+.container{
+    width: 90%;
+}
+
+.inline{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.video_js_{
+    width: 100%;
+    height: 264px;
+}
+
+.scrollable{
+    overflow-y: auto;
+    height: 264px;
+}
