@@ -296,7 +296,6 @@ class App extends React.Component {
                     { Object.keys(this.props.store.statistics).length > 0 ?<h5>Estadisticas</h5>:""}
                        
                         {
-                            data = []
                             Object.keys(this.props.store.statistics).map((obj_, i)=>{
                                 return  <p>{ obj_+": "+(this.props.store.statistics[obj_]*100/this.player.duration()).toFixed(2)+"%"}</p>
                             })
